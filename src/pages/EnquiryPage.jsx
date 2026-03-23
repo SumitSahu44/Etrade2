@@ -17,7 +17,7 @@ const EnquiryPage = () => {
         {/* Header Section */}
         <div className="mb-12 border-l-4 border-blue-600 pl-6">
           <h1 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-tight">
-            Business <span className="text-blue-500 italic">Enquiry</span>
+            Business <span className="text-blue-500 ">Enquiry</span>
           </h1>
           <p className="text-slate-400 mt-2 max-w-2xl">
             Partner with India's authorized textile hub. Fill out the form below and our industrial experts will reach out within 24 hours.
@@ -68,7 +68,7 @@ const EnquiryPage = () => {
             <div className="p-6 bg-white/5 border border-white/10 rounded-sm backdrop-blur-md">
               <div className="flex items-center gap-2 mb-3">
                 <CheckCircle2 size={18} className="text-blue-500" />
-                <span className="text-xs font-bold uppercase tracking-widest text-white">GST Verified Network</span>
+                <span className="text-xs font-bold uppercase st text-white">GST Verified Network</span>
               </div>
               <p className="text-xs text-slate-400 leading-relaxed">
                 Join 6,200+ manufacturers in a transparent, ISO-grade digital supply chain.
@@ -91,7 +91,7 @@ const EnquiryPage = () => {
                   <p className="text-slate-400">Our team will review your enquiry and contact you shortly.</p>
                   <button 
                     onClick={() => setSubmitted(false)}
-                    className="text-blue-500 font-bold text-xs uppercase tracking-widest border-b border-blue-500 pb-1"
+                    className="text-blue-500 font-bold text-xs uppercase st border-b border-blue-500 pb-1"
                   >
                     Send another message
                   </button>
@@ -150,7 +150,7 @@ const EnquiryPage = () => {
                   <div className="md:col-span-2 pt-4">
                     <button 
                       type="submit" 
-                      className="group w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 font-bold text-xs uppercase tracking-widest transition-all rounded-sm flex items-center justify-center gap-3"
+                      className="group w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 font-bold text-xs uppercase st transition-all rounded-sm flex items-center justify-center gap-3"
                     >
                       Submit Enquiry <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                     </button>

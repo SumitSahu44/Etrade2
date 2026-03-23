@@ -24,7 +24,7 @@ const Home = () => {
           ].map((stat, i) => (
             <div key={i} className="border-l-2 border-blue-500/30 pl-6 flex items-center gap-4">
               <div>
-                <p className="text-slate-500 text-xs font-black tracking-widest uppercase mb-1">{stat.label}</p>
+                <p className="text-slate-600 text-xs font-black st uppercase mb-1">{stat.label}</p>
                 <p className="text-3xl md:text-4xl font-bold text-white tracking-tighter">{stat.val}</p>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8 text-center md:text-left">
             <div className="max-w-xl mx-auto md:mx-0">
               <h2 className="text-4xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter mb-4">Core Capabilities</h2>
-              <p className="text-slate-500 leading-relaxed max-w-lg mx-auto md:mx-0">Facilitating governance and efficiency for manufacturers, exporters, and industrial contractors.</p>
+              <p className="text-slate-600 leading-relaxed max-w-lg mx-auto md:mx-0">Facilitating governance and efficiency for manufacturers, exporters, and industrial contractors.</p>
             </div>
             <Link to="/about" className="text-blue-600 font-bold border-b-2 border-blue-600 pb-1 hover:text-blue-800 transition">View Corporate Overview</Link>
           </div>
@@ -77,7 +77,7 @@ const Home = () => {
             />
             <div className="absolute -bottom-8 -left-8 bg-blue-600 p-12 hidden md:block rounded-sm">
               <p className="text-white text-5xl font-black">28+</p>
-              <p className="text-blue-100 text-[11px] font-bold uppercase tracking-widest mt-1">Years of Integrity</p>
+              <p className="text-blue-100 text-[11px] font-bold uppercase st mt-1">Years of Integrity</p>
             </div>
           </div>
           <div className="space-y-8 order-1 lg:order-2 text-center lg:text-left">
@@ -101,13 +101,13 @@ const Home = () => {
                   <ShieldCheck className="text-blue-600 mt-1 shrink-0" size={18} />
                   <div>
                     <p className="font-bold text-slate-900">{feat.title}</p>
-                    <p className="text-slate-500">{feat.bio}</p>
+                    <p className="text-slate-600">{feat.bio}</p>
                   </div>
                 </div>
               ))}
             </div>
             <div className="flex justify-center lg:justify-start pt-8">
-              <button className="bg-slate-900 text-white px-8 py-4 font-bold hover:bg-slate-800 transition text-xs uppercase tracking-widest flex items-center gap-2">
+              <button className="bg-slate-900 text-white px-8 py-4 font-bold hover:bg-slate-800 transition text-xs uppercase st flex items-center gap-2">
                 EXPLORE INDIA MAP <ChevronRight size={16} />
               </button>
             </div>
@@ -131,12 +131,12 @@ const Home = () => {
               <div key={i} className="bg-white p-8 border border-slate-200 hover:border-blue-500 transition shadow-sm group">
                 <p className="text-xs text-slate-400 font-bold uppercase mb-2">{circ.date}</p>
                 <h4 className="text-lg font-bold text-slate-800 mb-4 group-hover:text-blue-600 transition">{circ.title}</h4>
-                <Link to="/circular" className="text-blue-600 text-xs font-bold uppercase tracking-widest flex items-center gap-1 group-hover:translate-x-1 transition-transform">Read Notice <ChevronRight size={14} /></Link>
+                <Link to="/circular" className="text-blue-600 text-xs font-bold uppercase st flex items-center gap-1 group-hover:translate-x-1 transition-transform">Read Notice <ChevronRight size={14} /></Link>
               </div>
             ))}
           </div>
           <div className="flex justify-center mt-12">
-            <Link to="/circular" className="bg-slate-900 text-white px-6 py-3 text-xs font-bold uppercase tracking-widest hover:bg-blue-600 transition">View All Announcements</Link>
+            <Link to="/circular" className="bg-slate-900 text-white px-6 py-3 text-xs font-bold uppercase st hover:bg-blue-600 transition">View All Announcements</Link>
           </div>
         </div>
       </section>
@@ -161,7 +161,7 @@ const TradeCard = ({ icon, title, desc, image }) => (
     <div className="p-10 md:p-12 space-y-4">
       <div className="mb-8">{icon}</div>
       <h3 className="text-xl font-bold text-slate-900 uppercase tracking-tight mb-4 group-hover:text-blue-600 transition">{title}</h3>
-      <p className="text-slate-500 text-sm leading-relaxed mb-8">{desc}</p>
+      <p className="text-slate-600 text-sm leading-relaxed mb-8">{desc}</p>
       <div className="w-10 h-[2px] bg-slate-300 group-hover:w-full group-hover:bg-blue-600 transition-all duration-500"></div>
     </div>
   </div>

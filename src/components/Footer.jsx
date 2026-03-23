@@ -22,7 +22,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-white font-bold mb-6 uppercase text-sm tracking-widest">Navigation</h3>
+          <h3 className="text-white font-bold mb-6 uppercase text-sm st">Navigation</h3>
           <ul className="space-y-3 text-sm">
             <li><a href="/about" className="hover:text-white">About Us</a></li>
             <li><a href="/products" className="hover:text-white">Product & Services</a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div>
-          <h3 className="text-white font-bold mb-6 uppercase text-sm tracking-widest">Contact Us</h3>
+          <h3 className="text-white font-bold mb-6 uppercase text-sm st">Contact Us</h3>
           <ul className="space-y-4 text-sm">
             <li className="flex items-start gap-3">
               <MapPin size={18} className="text-blue-500 shrink-0" />
@@ -53,7 +53,7 @@ const Footer = () => {
 
         {/* Google Map Integration Placeholder */}
         <div>
-          <h3 className="text-white font-bold mb-6 uppercase text-sm tracking-widest">Our Location</h3>
+          <h3 className="text-white font-bold mb-6 uppercase text-sm st">Our Location</h3>
           <div className="h-40 w-full rounded-lg overflow-hidden grayscale hover:grayscale-0 transition duration-500">
             <iframe
               title="Google Map"
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-6 mt-16 pt-8 border-t border-gray-800 text-center text-xs text-gray-500 uppercase tracking-widest">
+      <div className="container mx-auto px-6 mt-16 pt-8 border-t border-gray-800 text-center text-xs text-gray-500 uppercase st">
         © 2026 PAREKH e-TRADE MARKET (TEXTILE). All Browser Support | SEO Friendly
       </div>
     </footer>

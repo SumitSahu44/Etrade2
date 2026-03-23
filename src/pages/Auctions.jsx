@@ -11,7 +11,7 @@ const Auctions = () => {
     <div className="py-16 bg-slate-50 min-h-screen">
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center mb-10">
-          <h2 className="text-3xl font-black text-slate-800 uppercase italic">Active e-Auctions & Tenders</h2>
+          <h2 className="text-3xl font-black text-slate-800 uppercase ">Active e-Auctions & Tenders</h2>
           <div className="flex gap-2">
             <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-xs font-bold animate-pulse uppercase">Live Now</span>
           </div>

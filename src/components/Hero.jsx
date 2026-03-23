@@ -73,7 +73,7 @@ const Hero = () => {
                 <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight uppercase leading-none">
                   {slide.title}
                 </h1>
-                <h2 className="text-4xl md:text-6xl font-medium text-blue-500 italic tracking-tight">
+                <h2 className="text-4xl md:text-6xl font-medium text-blue-500  tracking-tight">
                   {slide.highlight}
                 </h2>
               </div>
@@ -85,10 +85,10 @@ const Hero = () => {
 
               {/* Professional Actions */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link to="/buyer" className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 font-bold text-xs uppercase tracking-widest transition-all text-center rounded-sm flex items-center justify-center gap-2">
+                <Link to="/buyer" className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 font-bold text-xs uppercase st transition-all text-center rounded-sm flex items-center justify-center gap-2">
                   Buyer Platform <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <Link to="/seller" className="backdrop-blur-md bg-white/5 border border-white/20 text-white hover:bg-white/10 px-8 py-4 font-bold text-xs uppercase tracking-widest transition-all text-center rounded-sm">
+                <Link to="/seller" className="backdrop-blur-md bg-white/5 border border-white/20 text-white hover:bg-white/10 px-8 py-4 font-bold text-xs uppercase st transition-all text-center rounded-sm">
                   Seller Portal
                 </Link>
               </div>

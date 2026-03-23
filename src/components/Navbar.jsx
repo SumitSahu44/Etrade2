@@ -21,26 +21,32 @@ const Navbar = () => {
       dropdown: [
         { name: 'Buyer Platform', path: '/buyer' },
         { name: 'Seller Platform', path: '/seller' },
-        { name: 'e-Auction Portal', path: '/auction' },
+        { name: 'E-Quotation', path: '/EQuotation' },
+        { name: 'E-EAuction', path: '/EAuction' },
         { name: 'Tender & Contracts', path: '/tenders' },
         { name: 'Management', path: '/management' },  
+        { name: 'Blogs', path: '/blogs' },  
+         { name: 'Media', path: '/media' },
+          { name: 'Textile Associates', path: '/textile-associates' },
+           { name: 'Appointment', path: '/VisitAppointment' },
       ]
     },
     { name: 'Products & Solutions', path: '/Products' },
     { name: 'Circular', path: '/circular' },
+     { name: 'Careers', path: '/careers' },
     { name: 'Contact', path: '/contact' },
   ];
 
   return (
-    <header className="sticky top-0 z-[100] bg-white border-b border-slate-100 shadow-sm font-['Poppins',_sans-serif]">
+    <header className="sticky top-0 z-[100] bg-white border-b border-slate-100 shadow-sm">
       <nav className="container mx-auto px-5 md:px-12 h-18 md:h-22 flex justify-between items-center">
 
         {/* Logo Section */}
         <Link to="/" className="flex flex-col group">
-          <span className="text-xl md:text-[26px] font-bold text-slate-900 tracking-tighter uppercase leading-tight">
+          <span className="text-xl md:text-[26px] font-bold text-slate-900 r uppercase ">
             PAREKH <span className="text-blue-600 transition-colors duration-300">e-TRADE</span>
           </span>
-          <span className="text-[9px] md:text-[11px] font-medium text-slate-400 uppercase tracking-[0.15em] mt-0.5">
+          <span className="text-[9px] md:text-[11px] font-medium text-slate-400 uppercase  mt-0.5">
             Textile Industry Hub
           </span>
         </Link>
@@ -51,7 +57,7 @@ const Navbar = () => {
             <div key={item.name} className="relative group py-7">
               <Link
                 to={item.path}
-                className="text-[13px] font-semibold uppercase tracking-wider text-slate-600 hover:text-blue-600 flex items-center gap-1.5 transition-all duration-300"
+                className="text-[13px] font-semibold uppercase r text-slate-600 hover:text-blue-600 flex items-center gap-1.5 transition-all duration-300"
               >
                 {item.name} {item.dropdown && <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-300" />}
               </Link>
@@ -63,7 +69,7 @@ const Navbar = () => {
                     <Link
                       key={sub.name}
                       to={sub.path}
-                      className="block px-7 py-3.5 text-[11px] font-bold uppercase text-slate-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                      className="block px-7 py-3.5 text-[12px] font-bold uppercase text-slate-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
                     >
                       {sub.name}
                     </Link>
@@ -75,7 +81,7 @@ const Navbar = () => {
 
           <Link
             to="/EnquiryPage"
-            className="bg-[#020617] text-white px-8 py-3.5 text-[12px] font-bold uppercase tracking-widest hover:bg-blue-600 transition-all duration-300 rounded-sm shadow-md active:scale-95"
+            className="bg-[#020617] text-white px-8 py-3.5 text-[12px] font-bold uppercase st hover:bg-blue-600 transition-all duration-300 rounded-sm shadow-md active:scale-95"
           >
             Enquiry
           </Link>
@@ -115,7 +121,7 @@ const Navbar = () => {
                     <div className="border-b border-slate-50">
                       <button
                         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                        className="w-full flex justify-between items-center py-4 text-[19px] font-bold uppercase tracking-tighter text-slate-900"
+                        className="w-full flex justify-between items-center py-4 text-[19px] font-bold uppercase r text-slate-900"
                       >
                         {item.name} <ChevronDown size={22} className={`transition-transform duration-300 ${isDropdownOpen ? 'rotate-180 text-blue-600' : ''}`} />
                       </button>
@@ -134,7 +140,7 @@ const Navbar = () => {
                   ) : (
                     <Link
                       to={item.path}
-                      className="block py-4 text-[19px] font-bold uppercase tracking-tighter text-slate-900 border-b border-slate-50 hover:text-blue-600 transition"
+                      className="block py-4 text-[19px] font-bold uppercase r text-slate-900 border-b border-slate-50 hover:text-blue-600 transition"
                     >
                       {item.name}
                     </Link>
@@ -147,13 +153,13 @@ const Navbar = () => {
             <div className="mt-auto pt-12">
               <Link
                 to="/enquiry"
-                className="block w-full bg-blue-600 text-white text-center py-5 font-bold uppercase text-[13px] tracking-widest shadow-xl shadow-blue-100 rounded-sm"
+                className="block w-full bg-blue-600 text-white text-center py-5 font-bold uppercase text-[13px] st shadow-xl shadow-blue-100 rounded-sm"
               >
                 Trade Enquiry
               </Link>
               <div className="mt-8 text-center space-y-2">
                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">Official Support</p>
-                <p className="text-[14px] font-semibold text-slate-800 tracking-tight italic border-b border-blue-600 inline-block">
+                <p className="text-[14px] font-semibold text-slate-800 tracking-tight  border-b border-blue-600 inline-block">
                   e-trade@parekhtrade.com
                 </p>
               </div>

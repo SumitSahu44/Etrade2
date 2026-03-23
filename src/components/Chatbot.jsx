@@ -48,7 +48,7 @@ const Chatbot = () => {
 
     return {
       text: "I apologize, I didn't recognize that specific request. You may ask about 'Tenders', 'Auctions', or 'Registration' for immediate assistance.",
-      icon: <Search size={14} className="text-slate-500" />
+      icon: <Search size={14} className="text-slate-600" />
     };
   };
 
@@ -142,7 +142,7 @@ const Chatbot = () => {
               </button>
             </form>
             <div className="flex justify-between items-center mt-3 px-1">
-              <span className="text-[9px] text-slate-400 font-bold uppercase tracking-widest">Digital Infrastructure</span>
+              <span className="text-[9px] text-slate-400 font-bold uppercase st">Digital Infrastructure</span>
               <div className="flex gap-2">
                  <div className="w-2 h-2 rounded-full bg-blue-600/20"></div>
                  <div className="w-2 h-2 rounded-full bg-blue-600/40"></div>

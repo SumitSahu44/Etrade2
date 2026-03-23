@@ -8,7 +8,7 @@ const Terms = () => {
       <section className="bg-slate-900 py-20 text-white text-center">
         <div className="container mx-auto px-6">
           <p className="text-blue-400 font-bold text-xs uppercase tracking-[0.4em] mb-4">Official Documentation</p>
-          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter">e-Trade <span className="text-blue-500 italic">T&C</span></h1>
+          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter">e-Trade <span className="text-blue-500 ">T&C</span></h1>
           <p className="mt-4 text-slate-400 max-w-2xl mx-auto font-medium">Please read these terms carefully before participating in the Parekh e-Trade Market.</p>
         </div>
       </section>
@@ -25,7 +25,7 @@ const Terms = () => {
 
             {/* Clause 1 */}
             <section className="space-y-4">
-              <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm tracking-widest">
+              <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm st">
                 <span className="bg-blue-600 text-white px-2 py-0.5 rounded-sm text-[10px]">01</span>
                 User Accreditation & KYC
               </div>
@@ -36,7 +36,7 @@ const Terms = () => {
 
             {/* Clause 2 */}
             <section className="space-y-4">
-              <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm tracking-widest">
+              <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm st">
                 <span className="bg-blue-600 text-white px-2 py-0.5 rounded-sm text-[10px]">02</span>
                 e-Auction & Bidding Integrity
               </div>
@@ -47,7 +47,7 @@ const Terms = () => {
 
             {/* Clause 3 */}
             <section className="space-y-4">
-              <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm tracking-widest">
+              <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm st">
                 <span className="bg-blue-600 text-white px-2 py-0.5 rounded-sm text-[10px]">03</span>
                 Quality & Inspection (Textile Goods)
               </div>
@@ -58,7 +58,7 @@ const Terms = () => {
 
             {/* Clause 4 */}
             <section className="space-y-4">
-              <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm tracking-widest">
+              <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm st">
                 <span className="bg-blue-600 text-white px-2 py-0.5 rounded-sm text-[10px]">04</span>
                 Transaction Fees & e-Quotation
               </div>
@@ -71,7 +71,7 @@ const Terms = () => {
             <div className="bg-amber-50 border-l-4 border-amber-500 p-6 flex gap-4">
               <AlertTriangle className="text-amber-600 shrink-0" size={24} />
               <div>
-                <h4 className="font-bold text-amber-900 uppercase text-xs tracking-widest mb-1">Important Disclaimer</h4>
+                <h4 className="font-bold text-amber-900 uppercase text-xs st mb-1">Important Disclaimer</h4>
                 <p className="text-amber-800 text-sm">
                   Parekh e-Trade Market (Textile) is not liable for indirect or consequential losses resulting from market price fluctuations or logistics delays. Users trade at their own professional discretion.
                 </p>
@@ -82,7 +82,7 @@ const Terms = () => {
             <div className="pt-12 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="text-green-600" size={20} />
-                <span className="text-xs font-bold text-slate-500 uppercase">Updated: March 2026</span>
+                <span className="text-xs font-bold text-slate-600 uppercase">Updated: March 2026</span>
               </div>
               <button className="bg-slate-900 text-white px-8 py-4 font-bold text-xs uppercase tracking-[0.2em] hover:bg-blue-600 transition flex items-center gap-2">
                 <FileText size={16} /> Download Full PDF

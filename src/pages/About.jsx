@@ -23,9 +23,9 @@ const About = () => {
           </p>
           <h1 className="text-4xl md:text-8xl font-black uppercase tracking-tighter leading-none mb-8">
             The Digital Fabric of <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 italic">Textile Excellence</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 ">Textile Excellence</span>
           </h1>
-          <p className="max-w-3xl mx-auto text-base md:text-xl text-slate-500 leading-relaxed font-light px-4">
+          <p className="max-w-3xl mx-auto text-base md:text-xl text-slate-600 leading-relaxed font-light px-4">
             Parekh e-Trade Market is India's leading B2B ecosystem, bridging the gap between traditional textile manufacturing and modern digital trade efficiency.
           </p>
         </div>
@@ -79,7 +79,7 @@ const About = () => {
         <div className="container mx-auto px-6 md:px-12">
           <div className="text-center max-w-2xl mx-auto mb-20">
             <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter mb-4">The Pillars of Integrity</h2>
-            <p className="text-slate-500 text-sm font-bold uppercase tracking-[0.3em]">Built on Decades of Trust</p>
+            <p className="text-slate-600 text-sm font-bold uppercase tracking-[0.3em]">Built on Decades of Trust</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10 divide-y md:divide-y-0 md:divide-x divide-white/10">
@@ -126,7 +126,7 @@ const About = () => {
             <h3 className="text-2xl md:text-4xl font-black text-white uppercase tracking-tighter">Ready to Trade with Precision?</h3>
             <p className="text-blue-100 mt-2 font-medium">Join our verified network of textile professionals today.</p>
           </div>
-          <Link to="/buyer" className="bg-white text-blue-600 px-10 py-4 font-bold uppercase text-xs tracking-widest hover:bg-slate-900 hover:text-white transition-all flex items-center gap-2">
+          <Link to="/buyer" className="bg-white text-blue-600 px-10 py-4 font-bold uppercase text-xs st hover:bg-slate-900 hover:text-white transition-all flex items-center gap-2">
             Get Started <ChevronRight size={16} />
           </Link>
         </div>
@@ -144,7 +144,7 @@ const ObjectiveItem = ({ icon, title, desc }) => (
     </div>
     <div>
       <h4 className="text-xl font-bold uppercase tracking-tight text-slate-900 mb-2">{title}</h4>
-      <p className="text-slate-500 text-sm leading-relaxed max-w-md">{desc}</p>
+      <p className="text-slate-600 text-sm leading-relaxed max-w-md">{desc}</p>
     </div>
   </div>
 );
@@ -154,7 +154,7 @@ const AboutCard = ({ icon, title, desc }) => (
   <div className="p-12 md:p-16 space-y-6 hover:bg-white/5 transition-colors group">
     <div className="text-blue-500 group-hover:translate-x-2 transition-transform duration-500">{icon}</div>
     <h4 className="text-xl font-bold uppercase tracking-tight">{title}</h4>
-    <p className="text-slate-500 text-sm leading-relaxed">{desc}</p>
+    <p className="text-slate-600 text-sm leading-relaxed">{desc}</p>
   </div>
 );
 

@@ -39,7 +39,7 @@ const SocialWidget = () => {
 
           {/* Tooltip Label */}
           <div className="absolute right-20 flex items-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-4 group-hover:translate-x-0 pointer-events-none">
-            <div className="bg-[#0f172a] text-white text-[11px] font-bold px-4 py-2 rounded-xl shadow-2xl uppercase tracking-widest border border-white/10 whitespace-nowrap">
+            <div className="bg-[#0f172a] text-white text-[11px] font-bold px-4 py-2 rounded-xl shadow-2xl uppercase st border border-white/10 whitespace-nowrap">
               Connect to Trade Desk
             </div>
             {/* Tooltip Arrow */}

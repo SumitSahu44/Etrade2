@@ -17,7 +17,7 @@ const Gallery = () => {
             <div key={i} className="group relative overflow-hidden bg-slate-100 aspect-square border border-slate-200">
               <img src={item.url} alt={item.title} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
-                <span className="text-blue-400 text-[10px] font-black uppercase tracking-widest">{item.tag}</span>
+                <span className="text-blue-400 text-[10px] font-black uppercase st">{item.tag}</span>
                 <h4 className="text-white font-bold uppercase">{item.title}</h4>
               </div>
             </div>

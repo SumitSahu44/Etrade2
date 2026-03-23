@@ -37,7 +37,7 @@ const TextileProducts = () => {
           <h2 className="text-4xl font-black text-slate-900 uppercase tracking-tight mb-4">
             Our Textile Range
           </h2>
-          <p className="text-slate-500">
+          <p className="text-slate-600">
             High-quality fabrics and materials engineered for global bulk trade and industrial use.
           </p>
         </div>
@@ -63,10 +63,10 @@ const TextileProducts = () => {
 
               {/* Content */}
               <div className="absolute bottom-0 p-5">
-                <h3 className="text-white font-semibold text-lg tracking-wide">
+                <h3 className="text-white font-semibold text-lg ">
                   {product.name}
                 </h3>
-                <p className="text-xs text-slate-300 uppercase tracking-widest mt-1">
+                <p className="text-xs text-slate-300 uppercase st mt-1">
                   Bulk Supply • Export Quality
                 </p>
               </div>

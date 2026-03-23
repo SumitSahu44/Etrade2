@@ -9,7 +9,7 @@ const Career = () => {
 
   return (
     <div className="py-16 container mx-auto px-6">
-      <h2 className="text-3xl font-black mb-12 text-center uppercase tracking-widest">Join Our Elite Team</h2>
+      <h2 className="text-3xl font-black mb-12 text-center uppercase st">Join Our Elite Team</h2>
       <div className="max-w-4xl mx-auto space-y-6">
         {jobs.map((job, i) => (
           <div key={i} className="p-6 border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition flex justify-between items-center group">

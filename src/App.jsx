@@ -21,11 +21,21 @@ import Quotation from './pages/Quotation';
 import Terms from './pages/Terms';
 import TextileProducts from './pages/TextileProducts';
 import EnquiryPage from './pages/EnquiryPage';
+import ScrollToTop from './components/ScrollToTop';
+import EQuotation from './pages/EQuotation';
+import EAuction from './pages/EAuction';
+import Careers from './pages/Careers';
+import Blogs from './pages/Blogs';  
+import Media from './pages/MediaGallery';
+import TextileAssociates from './pages/TextileAssociates';  
+import VisitAppointment from './pages/VisitAppointment';
 function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
+        <ScrollToTop />
+
 
         <main className="flex-grow">
           <Routes>
@@ -39,9 +49,16 @@ function App() {
             <Route path="/seller" element={<SellerPlatform />} />
             <Route path="/tenders" element={<Tenders />} />
             <Route path="/circular" element={<Circular />} />
+            {/* <Route path="/blog" element={<Blog />} /> */}
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="/quotation" element={<Quotation />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/blogs" element={<Blogs />} />
+           <Route path="/EQuotation" element={<EQuotation />} />
+             <Route path="/EAuction" element={<EAuction />} />
             <Route path="/EnquiryPage" element={<EnquiryPage />} />
+            <Route path="/media" element={<Media />} />
+            <Route path="/VisitAppointment" element={<VisitAppointment />} />
+            <Route path="/textile-associates" element={<TextileAssociates />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>

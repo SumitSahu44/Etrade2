@@ -30,7 +30,7 @@ const Tenders = () => {
             <h1 className="text-4xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter">
               Tenders & <span className="text-blue-600">Contracts</span>
             </h1>
-            <p className="text-slate-500 mt-4 font-medium italic">
+            <p className="text-slate-600 mt-4 font-medium ">
               Official bidding documents for large-scale textile procurement and infrastructure.
             </p>
           </div>
@@ -47,8 +47,8 @@ const Tenders = () => {
               <div className="p-6 md:p-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
                 <div className="space-y-3 flex-grow">
                   <div className="flex flex-wrap items-center gap-3">
-                    <span className="bg-blue-50 text-blue-700 px-3 py-1 text-[10px] font-black uppercase tracking-widest">{tender.id}</span>
-                    <span className="bg-green-100 text-green-700 px-3 py-1 text-[10px] font-black uppercase tracking-widest flex items-center gap-1">
+                    <span className="bg-blue-50 text-blue-700 px-3 py-1 text-[10px] font-black uppercase st">{tender.id}</span>
+                    <span className="bg-green-100 text-green-700 px-3 py-1 text-[10px] font-black uppercase st flex items-center gap-1">
                       <div className="w-1.5 h-1.5 bg-green-600 rounded-full animate-pulse"></div> {tender.status}
                     </span>
                   </div>
@@ -59,7 +59,7 @@ const Tenders = () => {
                     <span className="flex items-center gap-1"><Tag size={14} /> {tender.category}</span>
                   </div>
                 </div>
-                <button className="w-full md:w-auto bg-[#020617] text-white px-8 py-4 font-bold text-xs uppercase hover:bg-blue-600 transition flex items-center justify-center gap-2 tracking-widest">
+                <button className="w-full md:w-auto bg-[#020617] text-white px-8 py-4 font-bold text-xs uppercase hover:bg-blue-600 transition flex items-center justify-center gap-2 st">
                   <Download size={16} /> DOWNLOAD RFP
                 </button>
               </div>

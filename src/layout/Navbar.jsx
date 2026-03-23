@@ -13,7 +13,7 @@ const Navbar = () => {
             <span className="text-xl font-extrabold text-slate-800 tracking-tighter">
               PAREKH <span className="text-blue-600">e-TRADE</span>
             </span>
-            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Market (Textile)</span>
+            <span className="text-[10px] font-bold text-gray-500 uppercase st">Market (Textile)</span>
           </div>
 
           {/* Desktop Menu */}

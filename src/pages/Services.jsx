@@ -19,7 +19,7 @@ const Services = () => {
               <div className="text-blue-600 group-hover:text-blue-400">{cat.icon}</div>
               <div>
                 <h3 className="text-2xl font-bold uppercase mb-2 tracking-tight">{cat.title}</h3>
-                <p className="text-slate-500 group-hover:text-slate-400 leading-relaxed">{cat.desc}</p>
+                <p className="text-slate-600 group-hover:text-slate-400 leading-relaxed">{cat.desc}</p>
               </div>
             </div>
           ))}
