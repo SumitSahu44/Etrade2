@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-slate-900 text-gray-300 pt-16 pb-8">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-        
+
         {/* Company Info */}
         <div className="space-y-4">
           <h2 className="text-white text-xl font-bold">PAREKH e-TRADE</h2>
@@ -55,7 +55,7 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-bold mb-6 uppercase text-sm tracking-widest">Our Location</h3>
           <div className="h-40 w-full rounded-lg overflow-hidden grayscale hover:grayscale-0 transition duration-500">
-            <iframe 
+            <iframe
               title="Google Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3160407063!2d78.26795909280145!3d17.412299801648057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78322b79b0!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy">

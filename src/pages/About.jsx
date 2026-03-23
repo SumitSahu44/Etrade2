@@ -1,20 +1,20 @@
 // src/pages/About.jsx ki top line ko replace karein
 import React from 'react';
-import { 
-  Target, 
-  Award, 
-  ShieldCheck, 
-  History, 
-  Users2, 
-  Building2, 
-  ChevronRight, 
+import {
+  Target,
+  Award,
+  ShieldCheck,
+  History,
+  Users2,
+  Building2,
+  ChevronRight,
   Globe,   // <-- Ye missing tha, isko add kar diya
   Link
 } from 'lucide-react';
 const About = () => {
   return (
     <div className="bg-white text-slate-900 selection:bg-blue-50">
-      
+
       {/* --- 1. CORPORATE HEADER (HERO) --- */}
       <section className="relative py-24 md:py-32 bg-slate-50 overflow-hidden border-b border-slate-100">
         <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
@@ -22,7 +22,7 @@ const About = () => {
             Established 1998 • Hyderabad
           </p>
           <h1 className="text-4xl md:text-8xl font-black uppercase tracking-tighter leading-none mb-8">
-            The Digital Fabric of <br /> 
+            The Digital Fabric of <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 italic">Textile Excellence</span>
           </h1>
           <p className="max-w-3xl mx-auto text-base md:text-xl text-slate-500 leading-relaxed font-light px-4">
@@ -37,10 +37,10 @@ const About = () => {
       <section className="py-20 md:py-32 container mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24 items-center">
         <div className="relative group">
           <div className="absolute -inset-4 bg-blue-100/50 rounded-sm -z-10 group-hover:inset-0 transition-all duration-700"></div>
-          <img 
-            src="https://images.unsplash.com/photo-1615806528302-05c722d51e0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VGV4dGlsZSUyMGNsb3RofGVufDB8fDB8fHww" 
-            className="w-full grayscale hover:grayscale-0 transition duration-1000 shadow-2xl rounded-sm border border-slate-200" 
-            alt="Textile Quality Control" 
+          <img
+            src="https://images.unsplash.com/photo-1615806528302-05c722d51e0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VGV4dGlsZSUyMGNsb3RofGVufDB8fDB8fHww"
+            className="w-full grayscale hover:grayscale-0 transition duration-1000 shadow-2xl rounded-sm border border-slate-200"
+            alt="Textile Quality Control"
           />
           <div className="absolute -bottom-10 -right-6 md:-right-10 bg-blue-600 p-8 md:p-12 text-white shadow-2xl rounded-sm hidden sm:block">
             <Award size={48} className="mb-4" />
@@ -55,17 +55,17 @@ const About = () => {
           </div>
 
           <div className="space-y-8">
-            <ObjectiveItem 
+            <ObjectiveItem
               icon={<Target className="text-blue-600" size={32} />}
               title="Global Market Accessibility"
               desc="Empowering local manufacturers in Hyderabad and Pan-India hubs to access global procurement requests through our secure e-platform."
             />
-            <ObjectiveItem 
+            <ObjectiveItem
               icon={<ShieldCheck className="text-blue-600" size={32} />}
               title="Trade Governance"
               desc="Maintaining the highest standards of document verification (GST, MSME, CIN) to ensure every transaction is legally compliant and secure."
             />
-            <ObjectiveItem 
+            <ObjectiveItem
               icon={<Building2 className="text-blue-600" size={32} />}
               title="Industrial Optimization"
               desc="Reducing supply chain friction for textile raw materials and machineries through automated e-Quotation systems."
@@ -83,17 +83,17 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-white/10 divide-y md:divide-y-0 md:divide-x divide-white/10">
-            <AboutCard 
+            <AboutCard
               icon={<History size={36} />}
               title="28 Years Heritage"
               desc="Evolving from a traditional textile trading house in 1998 to India's most advanced e-trade market hub."
             />
-            <AboutCard 
+            <AboutCard
               icon={<Users2 size={36} />}
               title="Expert Leadership"
               desc="Managed by industry veterans with deep expertise in yarn logistics, fabric engineering, and global export-import."
             />
-            <AboutCard 
+            <AboutCard
               icon={<Globe size={36} />}
               title="Associate Network"
               desc="Operating through 500+ associate offices across 22 states, providing localized support for national trade."

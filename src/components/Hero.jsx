@@ -38,14 +38,13 @@ const Hero = () => {
 
   return (
     <section className="relative h-[80vh] md:h-[88vh] w-full overflow-hidden bg-slate-950 isolate font-['Poppins',_sans-serif]">
-      
+
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
-          }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"
+            }`}
         >
           {/* Main Background */}
           <img
@@ -53,14 +52,14 @@ const Hero = () => {
             alt={slide.title}
             className="absolute inset-0 h-full w-full object-cover"
           />
-          
+
           {/* Subtle Soft Overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/30 to-transparent z-10"></div>
 
           {/* Content Wrapper */}
           <div className="relative z-20 container mx-auto h-full px-6 md:px-12 flex items-center">
             <div className="max-w-3xl space-y-6 md:space-y-8">
-              
+
               {/* Minimal Badge */}
               <div className="inline-flex items-center gap-2 bg-blue-600/10 border border-blue-500/20 px-3 py-1.5 rounded-sm backdrop-blur-md">
                 <ShieldCheck size={14} className="text-blue-500" />
@@ -100,13 +99,13 @@ const Hero = () => {
 
       {/* Navigation Controls */}
       <div className="absolute bottom-10 right-10 flex items-center gap-4 z-30">
-        <button 
+        <button
           onClick={() => setCurrentSlide(currentSlide === 0 ? slides.length - 1 : currentSlide - 1)}
           className="p-3 bg-white/5 hover:bg-blue-600 text-white backdrop-blur-md transition-all border border-white/10 rounded-full"
         >
           <ChevronLeft size={20} />
         </button>
-        <button 
+        <button
           onClick={() => setCurrentSlide(currentSlide === slides.length - 1 ? 0 : currentSlide + 1)}
           className="p-3 bg-white/5 hover:bg-blue-600 text-white backdrop-blur-md transition-all border border-white/10 rounded-full"
         >

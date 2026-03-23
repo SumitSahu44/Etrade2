@@ -22,9 +22,9 @@ const BuyerPlatform = () => {
 
       <div className="container mx-auto px-4 -mt-10">
         <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
-          
+
           <form className="p-8 md:p-12 space-y-10">
-            
+
             {/* 1. Official & Basic Info */}
             <section>
               <div className="flex items-center gap-2 mb-6 border-b pb-2">
@@ -53,12 +53,12 @@ const BuyerPlatform = () => {
                 <input type="text" placeholder="Name of the Buyer" className="p-3 border rounded-lg focus:border-blue-500 outline-none" />
                 <input type="text" placeholder="Title of the Business" className="p-3 border rounded-lg focus:border-blue-500 outline-none" />
                 <div className="md:col-span-2">
-                   <textarea placeholder="Address of the Business" className="w-full p-3 border rounded-lg h-24 focus:border-blue-500 outline-none"></textarea>
+                  <textarea placeholder="Address of the Business" className="w-full p-3 border rounded-lg h-24 focus:border-blue-500 outline-none"></textarea>
                 </div>
                 <input type="tel" placeholder="Mobile No." className="p-3 border rounded-lg focus:border-blue-500 outline-none" />
                 <input type="email" placeholder="Email Id" className="p-3 border rounded-lg focus:border-blue-500 outline-none" />
                 <input type="url" placeholder="URL (if any)" className="p-3 border rounded-lg focus:border-blue-500 outline-none" />
-                
+
                 <select className="p-3 border rounded-lg bg-white focus:border-blue-500 outline-none">
                   <option value="">Nature of Business</option>
                   <option>Retailer</option>
@@ -75,7 +75,7 @@ const BuyerPlatform = () => {
               {/* Document Upload Section */}
               <div className="mt-8 p-6 bg-blue-50 rounded-xl border-2 border-dashed border-blue-200">
                 <h4 className="font-bold text-blue-800 mb-4 flex items-center gap-2">
-                   Upload Documents <span className="text-[10px] bg-blue-600 text-white px-2 py-0.5 rounded-full uppercase">GST, MSME, License, LLP, CIN</span>
+                  Upload Documents <span className="text-[10px] bg-blue-600 text-white px-2 py-0.5 rounded-full uppercase">GST, MSME, License, LLP, CIN</span>
                 </h4>
                 <div className="flex flex-col items-center justify-center py-4 bg-white rounded-lg border border-blue-100 cursor-pointer hover:bg-blue-100 transition">
                   <input type="file" multiple className="hidden" id="file-upload" />
@@ -99,7 +99,7 @@ const BuyerPlatform = () => {
                   {textileItems.map(item => <option key={item}>{item}</option>)}
                 </select>
                 <input type="text" placeholder="Membership in Chamber (if any)" className="p-3 border rounded-lg focus:border-blue-500 outline-none" />
-                
+
                 <div className="md:col-span-2">
                   <textarea placeholder="Detailed Description of items to buy" className="w-full p-3 border rounded-lg h-24 focus:border-blue-500 outline-none"></textarea>
                 </div>

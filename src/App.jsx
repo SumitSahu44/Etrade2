@@ -19,18 +19,19 @@ import Circular from './pages/Circular';
 import Gallery from './pages/Gallery';
 import Quotation from './pages/Quotation';
 import Terms from './pages/Terms';
-
+import TextileProducts from './pages/TextileProducts';
 function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        
+
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/Products" element={<TextileProducts />} />
             <Route path="/services" element={<Services />} />
             <Route path="/management" element={<Management />} />
             <Route path="/buyer" element={<BuyerPlatform />} />

@@ -26,7 +26,7 @@ const Circular = () => {
           {notifications.map((n, i) => (
             <div key={i} className="py-8 flex flex-col md:flex-row justify-between items-start md:items-center group cursor-pointer hover:bg-slate-50 transition px-4">
               <div className="flex gap-6 items-center">
-                <div className="text-slate-300 font-black text-2xl tracking-tighter group-hover:text-blue-600">0{i+1}</div>
+                <div className="text-slate-300 font-black text-2xl tracking-tighter group-hover:text-blue-600">0{i + 1}</div>
                 <div>
                   <h4 className="text-lg font-bold text-slate-800 group-hover:text-blue-600 transition leading-tight mb-1">{n.title}</h4>
                   <div className="flex gap-4 text-[10px] font-black text-slate-400 uppercase tracking-widest">

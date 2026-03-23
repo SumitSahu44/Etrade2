@@ -15,14 +15,14 @@ const Terms = () => {
 
       <div className="container mx-auto px-6 md:px-12 -mt-10">
         <div className="max-w-5xl mx-auto bg-white shadow-2xl border border-slate-100 p-8 md:p-16">
-          
+
           <div className="flex items-center gap-3 mb-10 pb-4 border-b-2 border-slate-900">
             <Scale className="text-blue-600" size={32} />
             <h2 className="text-2xl font-black uppercase tracking-tight">Legal Framework & Trade Guidelines</h2>
           </div>
 
           <div className="space-y-12">
-            
+
             {/* Clause 1 */}
             <section className="space-y-4">
               <div className="flex items-center gap-2 text-blue-600 font-black uppercase text-sm tracking-widest">
@@ -80,13 +80,13 @@ const Terms = () => {
 
             {/* Final Acceptance */}
             <div className="pt-12 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-6">
-               <div className="flex items-center gap-2">
-                 <CheckCircle2 className="text-green-600" size={20} />
-                 <span className="text-xs font-bold text-slate-500 uppercase">Updated: March 2026</span>
-               </div>
-               <button className="bg-slate-900 text-white px-8 py-4 font-bold text-xs uppercase tracking-[0.2em] hover:bg-blue-600 transition flex items-center gap-2">
-                 <FileText size={16} /> Download Full PDF
-               </button>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="text-green-600" size={20} />
+                <span className="text-xs font-bold text-slate-500 uppercase">Updated: March 2026</span>
+              </div>
+              <button className="bg-slate-900 text-white px-8 py-4 font-bold text-xs uppercase tracking-[0.2em] hover:bg-blue-600 transition flex items-center gap-2">
+                <FileText size={16} /> Download Full PDF
+              </button>
             </div>
 
           </div>

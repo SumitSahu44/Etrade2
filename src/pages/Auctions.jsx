@@ -33,7 +33,7 @@ const Auctions = () => {
                   <p className="text-xl font-black text-blue-700">{auc.price}</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-xs text-red-400 uppercase font-bold flex items-center justify-end gap-1"><Clock size={12}/> Ending In</p>
+                  <p className="text-xs text-red-400 uppercase font-bold flex items-center justify-end gap-1"><Clock size={12} /> Ending In</p>
                   <p className="font-bold text-slate-700">{auc.end}</p>
                 </div>
                 <button className="bg-slate-900 text-white px-6 py-2 rounded font-bold hover:bg-blue-600 transition">BID NOW</button>

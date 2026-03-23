@@ -6,7 +6,7 @@ const SellerPlatform = () => {
     <div className="bg-slate-50 py-16">
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
-          
+
           {/* Left Panel: Info */}
           <div className="md:w-1/3 bg-blue-900 p-10 text-white">
             <h2 className="text-3xl font-bold mb-6">Join our Seller Network</h2>
@@ -25,7 +25,7 @@ const SellerPlatform = () => {
               <input type="text" placeholder="Seller Business Name" className="p-3 border rounded-lg" />
               <input type="email" placeholder="Business Email" className="p-3 border rounded-lg" />
               <input type="tel" placeholder="Mobile Number" className="p-3 border rounded-lg" />
-              
+
               <div className="md:col-span-2">
                 <label className="block text-sm font-bold text-gray-700 mb-2">Nature of Business</label>
                 <div className="flex gap-4">

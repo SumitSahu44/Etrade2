@@ -34,10 +34,10 @@ const Tenders = () => {
               Official bidding documents for large-scale textile procurement and infrastructure.
             </p>
           </div>
-          <div className="relative w-full md:w-72">
+          {/* <div className="relative w-full md:w-72">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
             <input type="text" placeholder="Search Tenders..." className="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-none focus:ring-2 focus:ring-blue-600 outline-none uppercase text-xs font-bold" />
-          </div>
+          </div> */}
         </div>
 
         {/* Tender List */}
@@ -54,9 +54,9 @@ const Tenders = () => {
                   </div>
                   <h3 className="text-xl md:text-2xl font-bold text-slate-900 group-hover:text-blue-600 transition">{tender.title}</h3>
                   <div className="flex flex-wrap gap-4 text-slate-400 text-xs font-bold uppercase">
-                    <span className="flex items-center gap-1"><Calendar size={14}/> {tender.date}</span>
-                    <span className="flex items-center gap-1 text-red-500"><Calendar size={14}/> {tender.expiry}</span>
-                    <span className="flex items-center gap-1"><Tag size={14}/> {tender.category}</span>
+                    <span className="flex items-center gap-1"><Calendar size={14} /> {tender.date}</span>
+                    <span className="flex items-center gap-1 text-red-500"><Calendar size={14} /> {tender.expiry}</span>
+                    <span className="flex items-center gap-1"><Tag size={14} /> {tender.category}</span>
                   </div>
                 </div>
                 <button className="w-full md:w-auto bg-[#020617] text-white px-8 py-4 font-bold text-xs uppercase hover:bg-blue-600 transition flex items-center justify-center gap-2 tracking-widest">

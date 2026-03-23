@@ -3,10 +3,10 @@ import { Box, Settings, Cpu, Layers } from 'lucide-react';
 
 const Services = () => {
   const categories = [
-    { title: "Textile Raw Materials", desc: "Cotton, Yarn, Silk, and Synthetic Fibers sourced globally.", icon: <Layers size={40}/> },
-    { title: "Finished Products", desc: "Premium Apparel fabrics, Home textiles, and Industrial fabrics.", icon: <Box size={40}/> },
-    { title: "Industrial Machineries", desc: "High-speed Looms, Spinning frames, and Processing units.", icon: <Settings size={40}/> },
-    { title: "Textile Spares", desc: "Precision parts for all types of textile machinery.", icon: <Cpu size={40}/> }
+    { title: "Textile Raw Materials", desc: "Cotton, Yarn, Silk, and Synthetic Fibers sourced globally.", icon: <Layers size={40} /> },
+    { title: "Finished Products", desc: "Premium Apparel fabrics, Home textiles, and Industrial fabrics.", icon: <Box size={40} /> },
+    { title: "Industrial Machineries", desc: "High-speed Looms, Spinning frames, and Processing units.", icon: <Settings size={40} /> },
+    { title: "Textile Spares", desc: "Precision parts for all types of textile machinery.", icon: <Cpu size={40} /> }
   ];
 
   return (
