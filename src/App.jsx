@@ -20,6 +20,7 @@ import Gallery from './pages/Gallery';
 import Quotation from './pages/Quotation';
 import Terms from './pages/Terms';
 import TextileProducts from './pages/TextileProducts';
+import EnquiryPage from './pages/EnquiryPage';
 function App() {
   return (
     <Router>
@@ -40,6 +41,7 @@ function App() {
             <Route path="/circular" element={<Circular />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/quotation" element={<Quotation />} />
+            <Route path="/EnquiryPage" element={<EnquiryPage />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>

@@ -74,7 +74,7 @@ const Navbar = () => {
           ))}
 
           <Link
-            to="/enquiry"
+            to="/EnquiryPage"
             className="bg-[#020617] text-white px-8 py-3.5 text-[12px] font-bold uppercase tracking-widest hover:bg-blue-600 transition-all duration-300 rounded-sm shadow-md active:scale-95"
           >
             Enquiry
