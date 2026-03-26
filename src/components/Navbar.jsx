@@ -21,19 +21,19 @@ const Navbar = () => {
       dropdown: [
         { name: 'Buyer Platform', path: '/buyer' },
         { name: 'Seller Platform', path: '/seller' },
-        { name: 'E-Quotation', path: '/EQuotation' },
-        { name: 'E-EAuction', path: '/EAuction' },
+        { name: 'e-Quotation', path: '/EQuotation' },
+        { name: 'e-Auction', path: '/EAuction' },
         { name: 'Tender & Contracts', path: '/tenders' },
-        { name: 'Management', path: '/management' },  
-        { name: 'Blogs', path: '/blogs' },  
-         { name: 'Media', path: '/media' },
-          { name: 'Textile Associates', path: '/textile-associates' },
-           { name: 'Appointment', path: '/VisitAppointment' },
+        { name: 'Management', path: '/management' },
+        { name: 'Blogs', path: '/blogs' },
+        { name: 'Media', path: '/media' },
+        { name: 'Textile Associates', path: '/textile-associates' },
+        { name: 'e-Appointment', path: '/VisitAppointment' },
       ]
     },
     { name: 'Products & Solutions', path: '/Products' },
     { name: 'Circular', path: '/circular' },
-     { name: 'Careers', path: '/careers' },
+    { name: 'Careers', path: '/careers' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -42,13 +42,30 @@ const Navbar = () => {
       <nav className="container mx-auto px-5 md:px-12 h-18 md:h-22 flex justify-between items-center">
 
         {/* Logo Section */}
-        <Link to="/" className="flex flex-col group">
-          <span className="text-xl md:text-[26px] font-bold text-slate-900 r uppercase ">
-            PAREKH <span className="text-blue-600 transition-colors duration-300">e-TRADE</span>
-          </span>
-          <span className="text-[9px] md:text-[11px] font-medium text-slate-400 uppercase  mt-0.5">
-            Textile Industry Hub
-          </span>
+        <Link to="/" className="flex items-center gap-3 group">
+
+          {/* Logo Icon (First Letter) */}
+          <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-xl bg-blue-600 text-white font-bold text-xl shadow-md">
+            P
+          </div>
+
+          {/* Text Content */}
+          <div className="flex flex-col leading-tight">
+
+            {/* Main Name */}
+            <span className="text-lg md:text-[24px] font-bold text-slate-900 uppercase">
+              PAREKH{" "}
+              <span className="text-blue-600 normal-case">
+                e-Trade
+              </span>
+            </span>
+
+            {/* Sub Text */}
+            <span className="text-[10px] md:text-[12px] font-medium text-slate-400 uppercase tracking-wide">
+              Hyderabad
+            </span>
+
+          </div>
         </Link>
 
         {/* Desktop Menu - Increased Font Size by 2px */}
@@ -71,7 +88,7 @@ const Navbar = () => {
                       to={sub.path}
                       className="block px-7 py-3.5 text-[12px] font-bold uppercase text-slate-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
                     >
-                      {sub.name}
+                      {sub.name.startsWith('e-') ? <span className="normal-case">{sub.name}</span> : sub.name}
                     </Link>
                   ))}
                 </div>
@@ -132,7 +149,7 @@ const Navbar = () => {
                             to={sub.path}
                             className="flex justify-between items-center px-5 py-4 text-[13px] font-bold uppercase text-slate-600 hover:text-blue-600 transition"
                           >
-                            {sub.name} <ChevronRight size={16} />
+                            {sub.name.startsWith('e-') ? <span className="normal-case">{sub.name}</span> : sub.name} <ChevronRight size={16} />
                           </Link>
                         ))}
                       </div>
@@ -159,8 +176,8 @@ const Navbar = () => {
               </Link>
               <div className="mt-8 text-center space-y-2">
                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">Official Support</p>
-                <p className="text-[14px] font-semibold text-slate-800 tracking-tight  border-b border-blue-600 inline-block">
-                  e-trade@parekhtrade.com
+                <p className="text-[14px] font-semibold text-slate-800 tracking-tight border-b border-blue-600 inline-block">
+                  e-Trade@parekhtrade.com
                 </p>
               </div>
             </div>

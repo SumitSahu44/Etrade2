@@ -24,7 +24,7 @@ const Blogs = () => {
     },
     {
       title: "Global Supply Chain Challenges in the Post-Pandemic Era",
-      excerpt: "Understanding the shift from traditional logistics to tech-enabled e-trade market solutions...",
+      excerpt: "Understanding the shift from traditional logistics to tech-enabled e-Trade market solutions...",
       date: "Oct 18, 2025",
       readTime: "8 min read",
       category: "Logistics",

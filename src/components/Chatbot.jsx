@@ -84,7 +84,7 @@ const Chatbot = () => {
                 <div className="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-emerald-500 border-2 border-[#0f172a] rounded-full"></div>
               </div>
               <div>
-                <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-blue-400 leading-none mb-1">Parekh e-Trade</p>
+                <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-blue-400 leading-none mb-1">Parekh <span className="normal-case">e-Trade</span></p>
                 <h3 className="text-[15px] font-semibold leading-none tracking-tight">Support Concierge</h3>
               </div>
             </div>

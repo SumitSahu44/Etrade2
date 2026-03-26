@@ -8,9 +8,9 @@ const Footer = () => {
 
         {/* Company Info */}
         <div className="space-y-4">
-          <h2 className="text-white text-xl font-bold">PAREKH e-TRADE</h2>
+          <h2 className="text-white text-xl font-bold">PAREKH <span className="normal-case">e-Trade</span></h2>
           <p className="text-sm leading-relaxed">
-            Leading textile e-trade market providing a digital platform for buyers and sellers across India. Specializing in raw materials, machineries, and finished products.
+            Leading textile <span className="normal-case">e-Trade</span> market providing a digital platform for buyers and sellers across India. Specializing in raw materials, machineries, and finished products.
           </p>
           <div className="flex gap-4 pt-4">
             <Facebook className="hover:text-blue-500 cursor-pointer" size={20} />
@@ -46,7 +46,7 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-blue-500 shrink-0" />
-              <span>e-trade@parekhtrade.com</span>
+              <span>e-Trade@parekhtrade.com</span>
             </li>
           </ul>
         </div>
@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-6 mt-16 pt-8 border-t border-gray-800 text-center text-xs text-gray-500 uppercase st">
-        © 2026 PAREKH e-TRADE MARKET (TEXTILE). All Browser Support | SEO Friendly
+        © 2026 PAREKH <span className="normal-case">e-Trade</span> MARKET (TEXTILE). All Browser Support | SEO Friendly
       </div>
     </footer>
   );

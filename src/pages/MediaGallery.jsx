@@ -22,7 +22,7 @@ const MediaGallery = () => {
     { type: "photos", title: "New Silk Batch QA", date: "Oct 05, 2025", img: "https://www.conforna.com/Conforna_files/1(1).webp" },
     { type: "photos", title: "Warehouse Logistics - Hyderabad", date: "Sep 28, 2025", img: "https://img.freepik.com/premium-photo/row-colorful-fabric-rolls-each-with-different-pattern-color_1353625-3787.jpg?w=360" },
     { type: "photos", title: "Sustainable Dyeing Process", date: "Sep 20, 2025", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Nc8fAKgfL60XYnqQ4gxOZRqDQzBmHo6uVw&s" },
-    { type: "photos", title: "E-Trade Portal Launch", date: "Sep 15, 2025", img: "https://img.freepik.com/premium-photo/samples-textiles-upholstery-closeup-details-multicolor-fabric-texture-samples-samples-d_418821-1605.jpg" }
+    { type: "photos", title: "e-Trade Portal Launch", date: "Sep 15, 2025", img: "https://img.freepik.com/premium-photo/samples-textiles-upholstery-closeup-details-multicolor-fabric-texture-samples-samples-d_418821-1605.jpg" }
   ];
 
   return (

@@ -8,7 +8,7 @@ const Terms = () => {
       <section className="bg-slate-900 py-20 text-white text-center">
         <div className="container mx-auto px-6">
           <p className="text-blue-400 font-bold text-xs uppercase tracking-[0.4em] mb-4">Official Documentation</p>
-          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter">e-Trade <span className="text-blue-500 ">T&C</span></h1>
+          <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter"><span className="normal-case">e-Trade</span> <span className="text-blue-500 ">T&C</span></h1>
           <p className="mt-4 text-slate-400 max-w-2xl mx-auto font-medium">Please read these terms carefully before participating in the Parekh e-Trade Market.</p>
         </div>
       </section>

@@ -14,7 +14,7 @@ const Circular = () => {
       <div className="container mx-auto px-6 max-w-5xl">
         <div className="mb-16 border-b-2 border-slate-900 pb-8">
           <h2 className="text-5xl font-black text-slate-900 uppercase tracking-tighter">Official <span className="text-blue-600">Circulars</span></h2>
-          <p className="text-slate-600 mt-2 font-bold uppercase text-xs tracking-[0.2em]">Parekh e-Trade Regulatory Board Notifications</p>
+          <p className="text-slate-600 mt-2 font-bold uppercase text-xs tracking-[0.2em]">Parekh <span className="normal-case">e-Trade</span> Regulatory Board Notifications</p>
         </div>
 
         <div className="bg-slate-900 text-white p-4 flex items-center gap-3 mb-8">

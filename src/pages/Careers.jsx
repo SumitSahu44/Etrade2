@@ -29,7 +29,7 @@ const Careers = () => {
       salary: "Industry Standard"
     },
     {
-      title: "Full Stack Developer (E-Trade)",
+      title: "Full Stack Developer (e-Trade)",
       location: "Remote / Mumbai",
       type: "Full-Time",
       category: "Technology",

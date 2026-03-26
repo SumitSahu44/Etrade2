@@ -11,7 +11,7 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="flex-shrink-0 flex flex-col">
             <span className="text-xl font-extrabold text-slate-800 tracking-tighter">
-              PAREKH <span className="text-blue-600">e-TRADE</span>
+              PAREKH <span className="text-blue-600 normal-case">e-Trade</span>
             </span>
             <span className="text-[10px] font-bold text-gray-500 uppercase st">Market (Textile)</span>
           </div>

@@ -71,7 +71,15 @@ const Hero = () => {
               {/* Poppins Clean Heading */}
               <div className="space-y-2">
                 <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight uppercase leading-none">
-                  {slide.title}
+                  {slide.title.includes('e-Trade') ? (
+                    <>
+                      {slide.title.split('e-Trade')[0]}
+                      <span className="normal-case">e-Trade</span>
+                      {slide.title.split('e-Trade')[1]}
+                    </>
+                  ) : (
+                    slide.title
+                  )}
                 </h1>
                 <h2 className="text-4xl md:text-6xl font-medium text-blue-500  tracking-tight">
                   {slide.highlight}

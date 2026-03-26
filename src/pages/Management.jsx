@@ -13,7 +13,7 @@ const Management = () => {
     {
       name: "Mrs. Anjali P.",
       role: "Director of Operations",
-      bio: "A specialist in industrial automation, Anjali oversees e-trade logistics and ensures seamless operational excellence across international borders.",
+      bio: "A specialist in industrial automation, Anjali oversees e-Trade logistics and ensures seamless operational excellence across international borders.",
       img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
       linkedin: "#"
     }

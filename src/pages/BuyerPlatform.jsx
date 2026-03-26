@@ -1,11 +1,11 @@
 import React from 'react';
-import { 
-  ShoppingBag, 
-  Upload, 
-  CheckCircle2, 
-  Layout, 
-  ShieldCheck, 
-  FileText, 
+import {
+  ShoppingBag,
+  Upload,
+  CheckCircle2,
+  Layout,
+  ShieldCheck,
+  FileText,
   ArrowUpRight,
   Wallet,
   Globe
@@ -15,7 +15,7 @@ const BuyerPlatform = () => {
   return (
     <div className="min-h-screen bg-[#f8fafc] py-20 px-6 text-slate-950">
       <div className="max-w-7xl mx-auto">
-        
+
         {/* HEADER SECTION - Management Style Consistency */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-2xl">
@@ -29,12 +29,12 @@ const BuyerPlatform = () => {
           </div>
           <div className="hidden md:block text-right border-l-4 border-blue-600 pl-6">
             <p className="text-[11px] font-black text-slate-900 uppercase  mb-1">Official Support</p>
-            <p className="text-lg font-bold text-slate-950 italic">e-trade@parekhtrade.co</p>
+            <p className="text-lg font-bold text-slate-950 italic">e-Trade@parekhtrade.co</p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-          
+
           {/* LEFT PANEL: BUYER BENEFITS (Dark Contrast) */}
           <div className="lg:col-span-4 space-y-8">
             <div className="bg-slate-950 rounded-[2.5rem] p-10 text-white shadow-2xl relative overflow-hidden group">
@@ -73,7 +73,7 @@ const BuyerPlatform = () => {
           {/* RIGHT PANEL: COMPREHENSIVE BUYER FORM */}
           <div className="lg:col-span-8">
             <form className="space-y-10">
-              
+
               {/* SECTION 1: IDENTITY & DETAILS */}
               <div className="bg-white border-2 border-slate-200 rounded-[3rem] p-10 shadow-sm">
                 <div className="flex items-center justify-between mb-10 border-b-2 border-slate-100 pb-5">
@@ -83,7 +83,7 @@ const BuyerPlatform = () => {
                   </div>
                   <span className="text-[10px] font-black text-slate-400 uppercase  bg-slate-50 px-3 py-1 rounded-lg">Step 01</span>
                 </div>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="space-y-2">
                     <label className="text-[12px] font-black text-slate-900 uppercase ">Authorized Official Code No.</label>

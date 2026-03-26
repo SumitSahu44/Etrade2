@@ -25,10 +25,11 @@ import ScrollToTop from './components/ScrollToTop';
 import EQuotation from './pages/EQuotation';
 import EAuction from './pages/EAuction';
 import Careers from './pages/Careers';
-import Blogs from './pages/Blogs';  
+import Blogs from './pages/Blogs';
 import Media from './pages/MediaGallery';
-import TextileAssociates from './pages/TextileAssociates';  
+import TextileAssociates from './pages/TextileAssociates';
 import VisitAppointment from './pages/VisitAppointment';
+import Map from './components/Map';
 function App() {
   return (
     <Router>
@@ -53,12 +54,12 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/blogs" element={<Blogs />} />
-           <Route path="/EQuotation" element={<EQuotation />} />
-             <Route path="/EAuction" element={<EAuction />} />
+            <Route path="/EQuotation" element={<EQuotation />} />
+            <Route path="/EAuction" element={<EAuction />} />
             <Route path="/EnquiryPage" element={<EnquiryPage />} />
             <Route path="/media" element={<Media />} />
             <Route path="/VisitAppointment" element={<VisitAppointment />} />
-            <Route path="/textile-associates" element={<TextileAssociates />} />
+            <Route path="/textile-associates" element={<Map />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>

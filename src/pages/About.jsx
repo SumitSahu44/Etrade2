@@ -86,7 +86,7 @@ const About = () => {
             <AboutCard
               icon={<History size={36} />}
               title="28 Years Heritage"
-              desc="Evolving from a traditional textile trading house in 1998 to India's most advanced e-trade market hub."
+              desc="Evolving from a traditional textile trading house in 1998 to India's most advanced e-Trade market hub."
             />
             <AboutCard
               icon={<Users2 size={36} />}
