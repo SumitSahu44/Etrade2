@@ -62,7 +62,7 @@ const Navbar = () => {
 
             {/* Sub Text */}
             <span className="text-[10px] md:text-[12px] font-medium text-slate-400 uppercase tracking-wide">
-              Hyderabad
+              Hyderabad, TG
             </span>
 
           </div>

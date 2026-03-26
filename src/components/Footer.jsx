@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-6 mt-16 pt-8 border-t border-gray-800 text-center text-xs text-gray-500 uppercase st">
-        © 2026 PAREKH <span className="normal-case">e-Trade</span> MARKET (TEXTILE). All Browser Support | SEO Friendly
+        © 2026 PAREKH <span className="normal-case">e-Trade</span> MARKET (TEXTILE).
       </div>
     </footer>
   );
