@@ -23,6 +23,7 @@ const Navbar = () => {
         { name: 'Seller Platform', path: '/seller' },
         { name: 'e-Quotation', path: '/EQuotation' },
         { name: 'e-Auction', path: '/EAuction' },
+        { name: 'e-Trade T&C', path: '/terms' },
         { name: 'Tender & Contracts', path: '/tenders' },
         { name: 'Management', path: '/management' },
         { name: 'Blogs', path: '/blogs' },
@@ -31,7 +32,7 @@ const Navbar = () => {
         { name: 'Appointment', path: '/VisitAppointment' },
       ]
     },
-    { name: 'Products & Solutions', path: '/Products' },
+    { name: 'Products & Services', path: '/Products' },
     { name: 'Circular', path: '/circular' },
     { name: 'Careers', path: '/careers' },
     { name: 'Contact', path: '/contact' },

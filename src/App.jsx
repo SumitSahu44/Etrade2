@@ -30,6 +30,7 @@ import Media from './pages/MediaGallery';
 import TextileAssociates from './pages/TextileAssociates';
 import VisitAppointment from './pages/VisitAppointment';
 import Map from './components/Map';
+
 function App() {
   return (
     <Router>
