@@ -28,7 +28,7 @@ const Navbar = () => {
         { name: 'Blogs', path: '/blogs' },
         { name: 'Media', path: '/media' },
         { name: 'Textile Associates', path: '/textile-associates' },
-        { name: 'e-Appointment', path: '/VisitAppointment' },
+        { name: 'Appointment', path: '/VisitAppointment' },
       ]
     },
     { name: 'Products & Solutions', path: '/Products' },
